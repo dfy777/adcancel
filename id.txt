@@ -1,0 +1,6 @@
+    try{
+        var ad_id = document.getElementById("nameTemplate");
+        ad_id.style.display="none";
+    } catch(e){
+        errorTemplate
+    }

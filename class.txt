@@ -1,0 +1,10 @@
+    try{
+        var ad_class = document.getElementsByClassName("nameTemplate");
+        var len = ad_class.length;
+
+        for (var i = 0; i < len; i++) {
+            ad_class[i].style.display="none";
+        }
+    }catch(e){
+        errorTemplate
+    }
